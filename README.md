@@ -105,30 +105,58 @@ Cloud/Android deployment for accessibility.
 ## 🏗️ Folder Structure
 
 ```
-DocWise AI/
-│
-├── data/
-│   ├── doctor_profiles.csv
-│   └── disease_specialist_mapping.csv
-│
-├── modules/
-│   ├── pdf_reader.py
-│   ├── disease_matcher.py
-│   ├── summarizer.py
-│   ├── action_generator.py
-│   ├── doctor_mapper.py
-│   ├── filtering_engine.py
-│   └── recommendation_engine.py
-│
-├── app/
-│   ├── main.py
-│   └── assets/
-│
-├── models/
-│   ├── summarization_model/
-│   └── ocr_model/
-│
+DOCWISE AI/
+├── doctor_recommendation_system/
+│   ├── App.py
+│   ├── data/
+│   │   ├── disease_to_doctor.csv
+│   │   ├── doctor_profiles.csv
+│   ├── modules/
+│   │   ├── disease_mapper.py
+│   │   ├── doctor_filtering.py
+│   │   ├── doctor_profile.py
+│   │   ├── doctor_profiles.py
+│   │   ├── pdf_analyzer.py
+│   │   ├── __init__.py
+│   │   ├── __pycache__/
+│   │       ├── disease_mapper.cpython-313.pyc
+│   │       ├── doctor_filtering.cpython-313.pyc
+│   │       ├── doctor_profile.cpython-313.pyc
+│   │       ├── doctor_profiles.cpython-313.pyc
+│   │       ├── pdf_analyzer.cpython-313.pyc
+│           ├── __init__.cpython-313.pyc
 ├── requirements.txt
-├── README.md
-└── LICENSE
 
+```
+## 🚀 How to Run the Project
+
+Follow these steps to set up and run DocWise AI on your system:
+
+1️⃣ Prerequisites
+
+Make sure you have the following installed:
+
+Python 3.8 or higher
+
+pip (Python package manager)
+
+Tesseract OCR
+ (for text extraction)
+
+ 2️⃣ Install Dependencies
+
+All required Python libraries are listed in requirements.txt.
+Run the following command:
+
+pip install -r requirements.txt
+
+3️⃣ Run the Application
+
+Navigate into the project’s main folder:
+
+cd doctor_recommendation_system
+
+
+Then run:
+
+python App.py
