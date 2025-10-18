@@ -160,3 +160,6 @@ cd doctor_recommendation_system
 Then run:
 
 python App.py
+
+## 🎬 Demo Video
+[Download demo video](https://github.com/Pavithra-kvpg/DOCWISE-AI/raw/main/video.mp4)
