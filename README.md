@@ -1,5 +1,5 @@
 # 🩺 DOCWISE-AI
-A Smart Medical History Analyzer and Doctor Recommendation System
+# A SMART MEDICAL HISTORY ANALYZER AND DOCTOR RECOMMENDATION SYSTEM
 
 ## 🧠 Abstract
 **DocWise AI** is an intelligent prototype that analyzes medical documents and recommends doctors automatically.  
@@ -103,7 +103,9 @@ Cloud/Android deployment for accessibility.
 
 
 ## 🏗️ Folder Structure
-```DocWise AI/
+
+```
+DocWise AI/
 │
 ├── data/
 │   ├── doctor_profiles.csv
