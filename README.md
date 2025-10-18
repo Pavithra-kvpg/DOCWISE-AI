@@ -89,8 +89,21 @@ DocWise AI maps **56 diseases** to **22 specializations** and holds **1,000+ doc
 
 ---
 
+## 🔮 Future Enhancements
+
+Multi-language OCR/NLP support.
+
+Real-time hospital API integration.
+
+Doctor profile verification with live status.
+
+Cloud/Android deployment for accessibility.
+
+---
+
+
 ## 🏗️ Folder Structure
-DocWise AI/
+```DocWise AI/
 │
 ├── data/
 │   ├── doctor_profiles.csv
@@ -117,13 +130,3 @@ DocWise AI/
 ├── README.md
 └── LICENSE
 
-
-🔮 Future Enhancements
-
-Multi-language OCR/NLP support.
-
-Real-time hospital API integration.
-
-Doctor profile verification with live status.
-
-Cloud/Android deployment for accessibility.
