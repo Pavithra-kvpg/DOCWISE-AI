@@ -93,29 +93,30 @@ DocWise AI maps **56 diseases** to **22 specializations** and holds **1,000+ doc
 DocWise AI/
 │
 ├── data/
-│ ├── doctor_profiles.csv
-│ ├── disease_specialist_mapping.csv
+│   ├── doctor_profiles.csv
+│   └── disease_specialist_mapping.csv
 │
 ├── modules/
-│ ├── pdf_reader.py
-│ ├── disease_matcher.py
-│ ├── summarizer.py
-│ ├── action_generator.py
-│ ├── doctor_mapper.py
-│ ├── filtering_engine.py
-│ └── recommendation_engine.py
+│   ├── pdf_reader.py
+│   ├── disease_matcher.py
+│   ├── summarizer.py
+│   ├── action_generator.py
+│   ├── doctor_mapper.py
+│   ├── filtering_engine.py
+│   └── recommendation_engine.py
 │
 ├── app/
-│ ├── main.py
-│ └── assets/
+│   ├── main.py
+│   └── assets/
 │
 ├── models/
-│ ├── summarization_model/
-│ └── ocr_model/
+│   ├── summarization_model/
+│   └── ocr_model/
 │
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+
 
 🔮 Future Enhancements
 
