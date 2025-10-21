@@ -162,4 +162,4 @@ Then run:
 python App.py
 
 ## 🎬 Demo Video
-[Download demo video](https://github.com/Pavithra-kvpg/DOCWISE-AI/raw/main/video.mp4)
+https://github.com/user-attachments/assets/b2df161c-08cc-42ef-bc91-bf3ae2c7aaa0
